@@ -53,7 +53,7 @@ export default {
   // wywoływany przez login-form.vue
   // NEW, bo routing inaczej nie przekierowuje po zalogowaniu
   async login(email, password) {
-    let endPoint = process.env.VUE_APP_SERVER_JAVA+'service/users/login';
+    let endPoint = '/endpoint path'
     let request ={
       organizationId: 0, // przy logowaniu nie podaje organizacji
       usernameOrEmail: email,
